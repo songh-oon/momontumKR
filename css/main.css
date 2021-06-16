@@ -1,0 +1,91 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+html{
+	color: white;
+	font-family: font-family: 'Noto Sans KR', sans-serif;
+	height: 100%;
+    width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color:rgba(0, 0, 0,0.9)
+}
+
+body{
+	text-align:center;
+	align-items: center;
+	height :100vh;
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0;
+	animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+	opacity: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
+.coverbg{
+	width:100%;
+	background-color: rgba(0, 0, 0,0.6);
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+    width: 100%;
+	margin: 0;
+	padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.hidden {
+	display: none;
+}
+
+
+.content{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.titi{
+	font-family:'SDSamliphopangche_Outline';
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2.9rem;
+}
+
+
+#clock{
+	margin: 0;
+	font-size: 2rem;
+	font-family: 'NanumBarunpen';
+}
+
+#quote{
+	font-family: 'NanumBarunpen';
+	font-size: 1.3rem;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+
