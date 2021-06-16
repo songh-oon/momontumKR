@@ -11,3 +11,7 @@ And it is KR(korean)ver.
          
 　　　　if there's nothing in todo-list, greetings message become "안녕하세요 ${name}님"
 - when todo-list have more than 10 list then next `<li></li>` be added by side. 
+
+
+### Try
+https://songh-oon.github.io/momontumKR/
